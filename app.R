@@ -1,6 +1,5 @@
 library(shiny)
 library(shinythemes)
-#setwd("/home/anastasia/Documents/Disser/application/disser_dash")
 source("helpers.R")
 library(ggplot2)
 
