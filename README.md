@@ -2,7 +2,7 @@
 
 This is the repository with data and code to create Shiny application that allows looking at the results of my Master thesis and making some fun simulations. 
 
-To activate the application run *runGitHub("disser_app","terabitiya")* in your R Studio because I can't host it yet.
+To activate the application run *runGitHub("disser_app","terabitiya")* in your R Studio because I can't host it yet:(
 
 The key idea of this research is pretty simple. Previous scholars supposed that a voter deciding what political party to choose takes into account all the parties participating in a political campaign. However, it's not true. He or she has its own effective choice set. 
 
