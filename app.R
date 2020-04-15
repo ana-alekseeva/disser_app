@@ -19,7 +19,7 @@ p_names <- c("Just Russia","LDPR","CPRF","Yabloko","United Russia","Right Cause"
 
 ui <- fluidPage(theme = shinytheme("united"),
 
-    titlePanel("Simulations with Consideration Set"),
+    titlePanel("Make Fun Simulations with Consideration Set!"),
     sidebarLayout(
         sidebarPanel(
            h2("All Parties"),
