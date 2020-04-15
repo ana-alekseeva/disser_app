@@ -5,8 +5,9 @@ To activate the application run runGitHub("disser_app","terabitiya") in your R S
 
 The key idea of this research is pretty simple. Previous scholars supposed that a voter deciding what political party to choose takes into account all the parties participating in a political campaign. However, it's not true. He or she has its own effective choice set. 
 
-The model that is used in this research allows us to simulate the situation when a voter has some consideration set that we can create artificially. It is really appropriate to the Russian political system with restricted number of parties and dominating party "United Russia".
+The model that is used in this research allows us to simulate the situation when a voter has some consideration set that we can create artificially. It is really appropriate to Russian political system with dominating party "United Russia" and restricted opposition.
 
 So, to see how voters will behave conditioned on artificially created consideration sets try the application!
 
-It
+Tip:
+Take the plots for democracy political dimension. You can interpret the plots in the following way: the more value in ideology (X axis), the more democratic a voter. The more value of democracy, the more/less probability that the voter will choose the party. That's easy! 
