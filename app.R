@@ -1,11 +1,11 @@
 library(shiny)
 library(shinythemes)
 #setwd("/home/anastasia/Documents/Disser/application/disser_dash")
-source("census-app/helpers.R")
+source("helpers.R")
 library(ggplot2)
 
-load("census-app/data/data_sim_list.RData")
-load("census-app/data/output_cccl_lv_euc2.RData")
+load("data/data_sim_list.RData")
+load("data/output_cccl_lv_euc2.RData")
 params <- output_lv_euc2$par
 
 data_sim1 <- data_simulated_list[[1]]
