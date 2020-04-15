@@ -49,7 +49,7 @@ plot_cons_set_by_party <- function(data_sim,ideology_num,ideology_name,party_cod
   plot <- ggplot(data=data_plot_all, aes_string(x="ideology", y="Pr",color="party_cons_set",group="party_cons_set"))+
     geom_line()+
     geom_point()+
-    theme(legend.position="right")+
+    theme(legend.position="down")+
     xlab(ideology_name)+
     theme_bw()
   return(plot)
