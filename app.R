@@ -114,7 +114,6 @@ ui <- fluidPage(theme = shinytheme("united"),
                                    column(6, plotOutput("Plot1_7")))
                        ),
                        tabPanel("One Party",
-                             #  verbatimTextOutput("Text")
                                fluidRow(
                                   column(6, plotOutput("Plot2_1")),
                                   column(6, plotOutput("Plot2_2"))),
@@ -194,8 +193,6 @@ server <- function(input, output) {
       l <- l[!sapply(l, function(x) all(unlist(x) == 0))]
       return(l)
    })
-
-#output$Text <- renderPrint({party_inp()})     
 
   output$Plot2_1 <- renderPlot({
       plot_cons_set_by_party(data_sim1,1,"Left-Right Scale",party_inp(),cons_sets_inp(),params)
