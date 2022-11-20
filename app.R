@@ -26,7 +26,7 @@ choices = list("Just Russia"=1,
 
 ui <- fluidPage(theme = shinytheme("united"),
 
-    titlePanel("Make Fun Simulations with Consideration Set!"),
+    titlePanel("Simulator of Consideration Sets"),
     sidebarLayout(
         sidebarPanel(
            h2("All Parties"),
